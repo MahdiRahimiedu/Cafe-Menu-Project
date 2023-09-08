@@ -1,0 +1,357 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\Menu.Site.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Menu.Site.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\css\\SiteHome.css",
+      "PackagePath": "staticwebassets\\css\\SiteHome.css"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\fonts\\IDConnect.woff",
+      "PackagePath": "staticwebassets\\fonts\\IDConnect.woff"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\images\\096ad9be-1319-4f54-9f29-e80260de2926_a-11.png",
+      "PackagePath": "staticwebassets\\images\\096ad9be-1319-4f54-9f29-e80260de2926_a-11.png"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\images\\210795ee-387a-40b1-97ac-086fa9638649_a-11.png",
+      "PackagePath": "staticwebassets\\images\\210795ee-387a-40b1-97ac-086fa9638649_a-11.png"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\images\\30e2f165-2898-4ae8-9403-156b5bb24bd2_a-8.png",
+      "PackagePath": "staticwebassets\\images\\30e2f165-2898-4ae8-9403-156b5bb24bd2_a-8.png"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\images\\40c4307f-5308-44a1-aeca-a5db4b03045d_a-6.png",
+      "PackagePath": "staticwebassets\\images\\40c4307f-5308-44a1-aeca-a5db4b03045d_a-6.png"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\images\\4483bffe-0a2c-4519-ad2c-619fce81dfd1_a-5.png",
+      "PackagePath": "staticwebassets\\images\\4483bffe-0a2c-4519-ad2c-619fce81dfd1_a-5.png"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\images\\59ba817e-c118-420f-982c-d81ff74a5eed_a-10.png",
+      "PackagePath": "staticwebassets\\images\\59ba817e-c118-420f-982c-d81ff74a5eed_a-10.png"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\images\\86b2b5e6-2402-4fba-9f93-3e517fb70adb_hookah-bowl.png",
+      "PackagePath": "staticwebassets\\images\\86b2b5e6-2402-4fba-9f93-3e517fb70adb_hookah-bowl.png"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\images\\959c62f4-c9f6-41f2-a242-c297d8b58bac_a-10.png",
+      "PackagePath": "staticwebassets\\images\\959c62f4-c9f6-41f2-a242-c297d8b58bac_a-10.png"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\images\\9ed108de-29f8-422f-8a18-c9bc5f060807_a-3.png",
+      "PackagePath": "staticwebassets\\images\\9ed108de-29f8-422f-8a18-c9bc5f060807_a-3.png"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\images\\Call.png",
+      "PackagePath": "staticwebassets\\images\\Call.png"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\images\\ae356b32-c60d-4585-93cf-38f945ae28a2_a-9.png",
+      "PackagePath": "staticwebassets\\images\\ae356b32-c60d-4585-93cf-38f945ae28a2_a-9.png"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\images\\b3e0ddd5-2284-42ac-8e52-d914f92ea2cb_a-4.png",
+      "PackagePath": "staticwebassets\\images\\b3e0ddd5-2284-42ac-8e52-d914f92ea2cb_a-4.png"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\images\\bde86ef5-8f46-4599-a7ad-6571d9327e95_AZ.png",
+      "PackagePath": "staticwebassets\\images\\bde86ef5-8f46-4599-a7ad-6571d9327e95_AZ.png"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\images\\c5ee1dbf-5348-4de7-9122-26489dcef70d_a-1.png",
+      "PackagePath": "staticwebassets\\images\\c5ee1dbf-5348-4de7-9122-26489dcef70d_a-1.png"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\images\\ce270700-fda7-458e-a713-bba01766fcb0_img24.jpg",
+      "PackagePath": "staticwebassets\\images\\ce270700-fda7-458e-a713-bba01766fcb0_img24.jpg"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\images\\d4934b12-3630-423c-9649-507f4b8291c0_hookah-bowl.png",
+      "PackagePath": "staticwebassets\\images\\d4934b12-3630-423c-9649-507f4b8291c0_hookah-bowl.png"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\images\\de9cd26e-d3b3-48ba-93e4-fd1812339966_a-7.png",
+      "PackagePath": "staticwebassets\\images\\de9cd26e-d3b3-48ba-93e4-fd1812339966_a-7.png"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\images\\f9a1d722-458d-4dcb-8941-a9af13a20f7c_AZ.png",
+      "PackagePath": "staticwebassets\\images\\f9a1d722-458d-4dcb-8941-a9af13a20f7c_AZ.png"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\images\\f9d9ab62-9b44-46db-b49a-7c928b2567a1_hookah-bowl.png",
+      "PackagePath": "staticwebassets\\images\\f9d9ab62-9b44-46db-b49a-7c928b2567a1_hookah-bowl.png"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\images\\f9ec36b3-7840-405c-bad8-b07b06e7065b_a-2.png",
+      "PackagePath": "staticwebassets\\images\\f9ec36b3-7840-405c-bad8-b07b06e7065b_a-2.png"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\js\\siteHome.js",
+      "PackagePath": "staticwebassets\\js\\siteHome.js"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\Repository\\Menu.Site\\Menu.Site\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.Menu.Site.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.Menu.Site.props",
+      "PackagePath": "build\\Menu.Site.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Menu.Site.props",
+      "PackagePath": "buildMultiTargeting\\Menu.Site.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.Menu.Site.props",
+      "PackagePath": "buildTransitive\\Menu.Site.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,109 @@
+﻿@model IEnumerable<Category>
+@{
+    ViewData["Title"] = "کافه عربی جمیرا";
+}
+@section Styles{
+    <link rel="stylesheet" href="~/css/SiteHome.css" asp-append-version="true" />
+}
+
+
+    <aside>
+        <a href="tel:+989363676787" id="phone">
+            <img src="/images/Call.png" alt="phone" style="opacity: 1;width: 30px;height: 30px;" />
+        </a>
+
+        <div id="menu-category">
+            @foreach (var item in Model)
+        {
+            <a class="hoBody" onclick="btnCategory(this)">
+                <div class="hoImg">
+                    <img src="/images/@item.CategoryImage" alt="@item.CategoryName">
+                </div>
+                <strong>@item.CategoryName</strong>
+            </a>
+
+        }
+    </div>
+</aside>
+
+<div id="render">
+
+
+    <header>
+        <div id="header-item1" class="justify-content-lg-between">
+            <h1 class="fs-3">کافه عربی جمیرا</h1>
+            <button type="button" class="link-location" style="background-color: #32313100;" id="myBtn">آدرس کافه</button>
+        </div>
+        <div id="header-item2">
+            <hr>
+        </div>
+    </header>
+    <div id="menu">
+
+
+        @foreach (var item1 in Model)
+        {
+            <div class="menu-item1">
+
+                <div class="category">
+                    <h5 class="category-titel">
+                        <span class="category-titel-text">@item1.CategoryName</span>
+                        <span class="category-titel-line"></span>
+                    </h5>
+                </div>
+                @foreach (var item2 in item1.Products.Where(p => p.IsActive == true).OrderBy(p => p.CategoryId))
+                {
+
+                    <div class="dbox">
+                        <div class="category-product">
+                            <h4 class="product-name">
+                                @item2.ProductName
+                            </h4>
+                            <span class="product-price">
+                                @if (item2.Price != 0)
+                                {
+                                    <strong class="price">@item2.Price</strong>
+                                    <small class="unit-price">تومان</small>
+                                }
+                            </span>
+                        </div>
+                        @if (item2.Detail != null)
+                        {
+                            <strong class="btxt">@item2.Detail</strong>
+                        }
+                    </div>
+
+                }
+            </div>
+
+        }
+
+
+
+    </div>
+
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <span class="close display-6" style="cursor: pointer;">&times;</span>
+            </div>
+            <div class="modal-body border-0 text-center py-4">
+                <h5 class="text-modal">آدرس کافه: ولنجک ابتدای خیابان درکه جنب بستنی زیر خاکی کافه جمیرا</h5>
+            </div>
+            <div class="modal-footer border-0 justify-content-around">
+                <a href="https://goo.gl/maps/sWzi1xQ7fKVoKB1n9" target="_blank" style="width: 47%;" class="btn btn-outline-primary">مسیریابی با گوگل‌مپ</a>
+                <a href="https://nshn.ir/rbvvm7exOMiA" target="_blank" style="width: 47%;" class="btn btn-outline-primary">مسیریابی با نشان</a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+@section Scripts{
+    <script src="~/js/siteHome.js" asp-append-version="true"></script>
+
+}

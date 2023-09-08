@@ -1,0 +1,164 @@
+﻿@model IEnumerable<Category>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="fs-2">List of Category</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-sm btn-primary rounded-0 text-uppercase">Create New</a>
+</p>
+<table class="table table-bordered text-center">
+    <thead>
+        <tr class="align-baseline">
+            <th>
+                <button type="button" class="btn btn-danger" id="btn-delete-all">
+                    Delete All
+                </button>
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryImage)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Priority)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsActive)
+            </th>
+
+            <th>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Categories Priority
+                </button>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <input class="delete-box" value="false" type="checkbox" data-category-id="@item.Id">
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CategoryName)
+                </td>
+                <td>
+                    <img src="~/images/@item.CategoryImage" class="rounded-circle" height="40" width="40" asp-append-version="true">
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Priority)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsActive)
+                </td>
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary btn-sm rounded-0 text-uppercase">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-success btn-sm mx-1 rounded-0 text-uppercase">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm rounded-0 text-uppercase">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Categories Priority</h5>
+                <a asp-action="Index" class="btn btn-close"></a>
+            </div>
+            <div class="modal-body">
+                <table class="table table-bordered text-center">
+                    <tbody id="sortable-list">
+                        @foreach (Category item in Model)
+                        {
+                            <tr class="sortable-item" data-product-id="@item.Id">
+                                <td>@item.Priority</td>
+                                <td>@item.CategoryName</td>
+                                <td>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-up" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M11.5 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L11 2.707V14.5a.5.5 0 0 0 .5.5zm-7-14a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L4 13.293V1.5a.5.5 0 0 1 .5-.5z" />
+                                    </svg>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <a asp-action="Index" class="btn btn-secondary">Close</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script>
+        $(function() {
+            $("#sortable-list").sortable({
+                update: function(event, ui) {
+                    var sortedIds = [];
+                    $(".sortable-item").each(function() {
+                        sortedIds.push($(this).data("product-id"));
+                    });
+
+                    $.ajax({
+                        url: '@Url.Action("UpdatePriorities", "Categories")',
+                        type: 'POST',
+                        data: { ids: sortedIds },
+                        traditional: true,
+                        success: function(data) {
+                            $(".priority").each(function(index) {
+                                $(this).text(data[index]);
+                            });
+                        }
+                    });
+                }
+            });
+
+            $("#btn-delete-all").click(function() {
+                    var categorylist = [];
+                    $(".delete-box").each(function() {
+                        if ($(this).val() == "true") {
+                            categorylist.push($(this).data("category-id"));
+                        }
+                    });
+
+                    $.ajax({
+                    //   Categories/DeleteAll
+                        url: '@Url.Action("DeleteAll", "Categories")',
+                        type: 'POST',
+                        data: { ids: categorylist },
+                        traditional: true,
+                        success: function(data) {
+                            location.reload();
+                        }
+                    });
+            });
+
+            $(".delete-box").on('change', function() {
+                if ($(this).is(':checked')) {
+                    $(this).attr('value', 'true');
+                } else {
+                    $(this).attr('value', 'false');
+                }
+            });
+
+        });
+    </script>
+}

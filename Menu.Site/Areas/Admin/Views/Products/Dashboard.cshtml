@@ -1,0 +1,34 @@
+﻿@model Menu.Site.ViewModels.Dashboard
+
+
+
+<div class="py-4">
+    <section class="row">
+      <div class="col-md-6 col-lg-4">
+        <!-- card -->
+        <article class="p-4 rounded shadow-sm border-left
+       mb-4">
+          <a asp-action="Index" asp-controller="Products" asp-area="Admin" class="d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                </svg>
+            <h5 class="ml-2 ms-2">Products (@Model.Products.Count())<h5>
+          </a>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <article class="p-4 rounded shadow-sm border-left mb-4">
+          <a asp-action="Index" asp-controller="Categories" asp-area="Admin" class="d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box" viewBox="0 0 16 16">
+                  <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5 8.186 1.113zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/>
+                </svg>
+            <h5 class="ml-2 ms-2">Categories (@Model.Categories.Count())</h5>
+          </a>
+        </article>
+      </div>
+      
+    </section>
+    
+</div>
+
+
